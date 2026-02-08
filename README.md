@@ -1,28 +1,28 @@
-**Expense Management System**
+***Expense Management System***
 
 A full-stack Expense Management System built with a Streamlit frontend and a FastAPI backend to help users track and manage their expenses efficiently.
 
-🧠 Overview
+**🧠 Overview**
 
 This project lets you record, view, and analyze personal expenses through an interactive web app powered by Streamlit, while FastAPI handles backend APIs and logic. It is ideal for learning modern Python web development and building practical financial tools.
 
-🚀 Features
+**🚀 Features**
 
-✅ Add new expense entries
-✅ View a list of your expenses
-✅ Categorize and filter expenses
-✅ Fast API backend for data handling
-✅ Simple and user-friendly UI with Streamlit
+✅ Add new expense entries<br>
+✅ View a list of your expenses<br>
+✅ Categorize and filter expenses<br>
+✅ Fast API backend for data handling<br>
+✅ Simple and user-friendly UI with Streamlit<br>
 
 🧱 Project Structure
 /
-├── frontend/         # Streamlit app code
-├── backend/          # FastAPI server source
-├── tests/            # Test cases
-├── requirements.txt  # Python dependencies
-├── LICENSE           # Apache-2.0 License
-└── README.md
-``` :contentReference[oaicite:2]{index=2}
+├── frontend/         # Streamlit app code<br>
+├── backend/          # FastAPI server source<br>
+├── tests/            # Test cases<br>
+├── requirements.txt  # Python dependencies<br>
+├── LICENSE           # Apache-2.0 License<br>
+└── README.md<br>
+``` :contentReference[oaicite:2]{index=2}<br>
 
 ## ⚙️ Installation
 
