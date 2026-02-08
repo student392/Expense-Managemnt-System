@@ -11,15 +11,6 @@ This project lets you record, view, and analyze personal expenses through an int
 ✅ Fast API backend for data handling<br>
 ✅ Simple and user-friendly UI with Streamlit<br>
 
-## **🧱Project Structure**<br> 
-├── frontend/         # Streamlit app code<br>
-├── backend/          # FastAPI server source<br>
-├── tests/            # Test cases<br>
-├── requirements.txt  # Python dependencies<br>
-├── LICENSE           # Apache-2.0 License<br>
-└── README.md<br>
-``` :contentReference[oaicite:2]{index=2}<br>
-
 ## **📌 Technologies Used**<br> 
 Python<br>
 Streamlit<br>
@@ -27,25 +18,23 @@ FastAPI<br>
 REST APIs<br>
 Unit Testing<br>
 
-⚙️Installation
+## **⚙️Installation**<br> 
+Install dependencies<br>
+pip install -r requirements.txt<br>
 
-Install dependencies
-pip install -r requirements.txt
+## **▶️ Run the Backend**<br> 
+Start the FastAPI server:<br>
+uvicorn backend.server:app --reload<br>
+This will run the API at http://localhost:8000.<br>
 
-▶️ Run the Backend
-Start the FastAPI server:
-uvicorn backend.server:app --reload
-This will run the API at http://localhost:8000.
+## **▶️ Run the Frontend**<br> 
+In a new terminal:<br>
+streamlit run frontend/app.py<br>
+The Streamlit UI will open in your browser.<br>
 
-▶️ Run the Frontend
-In a new terminal:
-streamlit run frontend/app.py
-The Streamlit UI will open in your browser.
+## **🧪 Testing**<br> 
+Run all tests using:<br>
+pytest<br>
 
-🧪 Testing
-Run all tests using:
-pytest
-
-📄 License
+## **📄 License**<br> 
 This project is licensed under the Apache-2.0 License — see the LICENSE file for details.
-
