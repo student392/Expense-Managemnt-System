@@ -14,8 +14,7 @@ This project lets you record, view, and analyze personal expenses through an int
 ✅ Fast API backend for data handling<br>
 ✅ Simple and user-friendly UI with Streamlit<br>
 
-🧱 Project Structure
-/
+🧱 Project Structure<br> 
 ├── frontend/         # Streamlit app code<br>
 ├── backend/          # FastAPI server source<br>
 ├── tests/            # Test cases<br>
@@ -24,13 +23,7 @@ This project lets you record, view, and analyze personal expenses through an int
 └── README.md<br>
 ``` :contentReference[oaicite:2]{index=2}<br>
 
-## ⚙️ Installation
-
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/student392/Expense-Managemnt-System.git
-   cd Expense-Managemnt-System
-
+ ⚙️ Installation
 
 Install dependencies
 
@@ -39,27 +32,21 @@ pip install -r requirements.txt
 ▶️ Run the Backend
 
 Start the FastAPI server:
-
 uvicorn backend.server:app --reload
-
-
 This will run the API at http://localhost:8000.
 
 ▶️ Run the Frontend
 
 In a new terminal:
-
 streamlit run frontend/app.py
-
-
 The Streamlit UI will open in your browser.
 
 🧪 Testing
 
 Run all tests using:
-
 pytest
 
 📄 License
+This project is licensed under the Apache-2.0 License — see the LICENSE file for details.
 
 This project is licensed under the Apache-2.0 License — see the LICENSE file for details.
