@@ -1,33 +1,65 @@
-# Expense Management System
+Expense Management System
 
-This project is an expense management system that consists of a Streamlit frontend application and a FastAPI backend server.
+A full-stack Expense Management System built with a Streamlit frontend and a FastAPI backend to help users track and manage their expenses efficiently.
 
+🧠 Overview
 
-## Project Structure
+This project lets you record, view, and analyze personal expenses through an interactive web app powered by Streamlit, while FastAPI handles backend APIs and logic. It is ideal for learning modern Python web development and building practical financial tools.
 
-- **frontend/**: Contains the Streamlit application code.
-- **backend/**: Contains the FastAPI backend server code.
-- **tests/**: Contains the test cases for both frontend and backend.
-- **requirements.txt**: Lists the required Python packages.
-- **README.md**: Provides an overview and instructions for the project.
+🚀 Features
 
+✅ Add new expense entries
+✅ View a list of your expenses
+✅ Categorize and filter expenses
+✅ Fast API backend for data handling
+✅ Simple and user-friendly UI with Streamlit
 
-## Setup Instructions
+🧱 Project Structure
+/
+├── frontend/         # Streamlit app code
+├── backend/          # FastAPI server source
+├── tests/            # Test cases
+├── requirements.txt  # Python dependencies
+├── LICENSE           # Apache-2.0 License
+└── README.md
+``` :contentReference[oaicite:2]{index=2}
 
-1. **Clone the repository**:
+## ⚙️ Installation
+
+1. **Clone the repo**
    ```bash
-   git clone https://github.com/yourusername/expense-management-system.git
-   cd expense-management-system
-   ```
-1. **Install dependencies:**:   
-   ```commandline
-    pip install -r requirements.txt
-   ```
-1. **Run the FastAPI server:**:   
-   ```commandline
-    uvicorn server.server:app --reload
-   ```
-1. **Run the Streamlit app:**:   
-   ```commandline
-    streamlit run frontend/app.py
-   ```
+   git clone https://github.com/student392/Expense-Managemnt-System.git
+   cd Expense-Managemnt-System
+
+
+Install dependencies
+
+pip install -r requirements.txt
+
+▶️ Run the Backend
+
+Start the FastAPI server:
+
+uvicorn backend.server:app --reload
+
+
+This will run the API at http://localhost:8000.
+
+▶️ Run the Frontend
+
+In a new terminal:
+
+streamlit run frontend/app.py
+
+
+The Streamlit UI will open in your browser.
+
+🧪 Testing
+
+Run all tests using:
+
+pytest
+
+📄 License
+
+This project is licensed under the Apache-2.0 License — see the LICENSE file for details.
