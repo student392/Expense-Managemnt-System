@@ -1,4 +1,4 @@
-***Expense Management System***
+###Expense Management System###
 
 A full-stack Expense Management System built with a Streamlit frontend and a FastAPI backend to help users track and manage their expenses efficiently.
 
