@@ -11,6 +11,14 @@ This project lets you record, view, and analyze personal expenses through an int
 ✅ Fast API backend for data handling<br>
 ✅ Simple and user-friendly UI with Streamlit<br>
 
+## **🧱 Project Structure**<br>
+├── frontend/      # Streamlit frontend application<br>
+├── backend/       # FastAPI backend server<br>
+├── tests/         # Test cases for frontend and backend<br>
+├── requirements.txt # Python dependencies<br>
+├── README.md      # Project documentation<br>
+└── LICENSE        # LicenseApache-2.0 <br>
+
 ## **📌 Technologies Used**<br> 
 Python<br>
 Streamlit<br>
