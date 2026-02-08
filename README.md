@@ -20,26 +20,25 @@ This project lets you record, view, and analyze personal expenses through an int
 └── README.md<br>
 ``` :contentReference[oaicite:2]{index=2}<br>
 
-## **⚙️Installation**<br>
+⚙️Installation
 
-###**Install dependencies**<br>
+Install dependencies
 pip install -r requirements.txt
 
-### **▶️ Run the Backend**<br>
+▶️ Run the Backend
 Start the FastAPI server:
 uvicorn backend.server:app --reload
 This will run the API at http://localhost:8000.
 
-###**▶️ Run the Frontend**<br>
+▶️ Run the Frontend
 In a new terminal:
 streamlit run frontend/app.py
 The Streamlit UI will open in your browser.
 
-###**🧪 Testing**<br>
+🧪 Testing
 Run all tests using:
 pytest
 
-###**📄 License**<br>
+📄 License
 This project is licensed under the Apache-2.0 License — see the LICENSE file for details.
 
-This project is licensed under the Apache-2.0 License — see the LICENSE file for details.
