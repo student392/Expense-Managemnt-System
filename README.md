@@ -20,6 +20,13 @@ This project lets you record, view, and analyze personal expenses through an int
 └── README.md<br>
 ``` :contentReference[oaicite:2]{index=2}<br>
 
+## **📌 Technologies Used**<br> 
+Python<br>
+Streamlit<br>
+FastAPI<br>
+REST APIs<br>
+Unit Testing<br>
+
 ⚙️Installation
 
 Install dependencies
